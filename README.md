@@ -3,7 +3,7 @@
 The landing site for **Elia** — a small family of calm, private, offline-first
 apps for pregnancy, birth, and the early days with your baby.
 
-Live at **https://elia-apps.github.io**
+Live at **https://getelia.app** (custom domain; also served at https://elia-apps.github.io)
 
 ## Structure
 
