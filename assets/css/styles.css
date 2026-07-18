@@ -168,6 +168,9 @@ p { margin: 0; }
   background: linear-gradient(160deg, var(--accent) 0%, var(--accent-dark) 100%);
 }
 .app-icon svg { width: 30px; height: 30px; }
+/* Icon tile holding a real image (e.g. app artwork) instead of an inline SVG */
+.app-icon.is-image { background: none; padding: 0; overflow: hidden; }
+.app-icon.is-image img { width: 100%; height: 100%; object-fit: cover; border-radius: inherit; }
 .app-card__title { font-family: var(--font-display); font-size: 23px; font-weight: 600; }
 .app-card__one { color: var(--soft-ink); }
 .app-card__foot { margin-top: auto; display: flex; align-items: center; justify-content: space-between; }
