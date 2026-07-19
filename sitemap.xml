@@ -2,37 +2,142 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://getelia.app/</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-07-19</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://getelia.app/uk/</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://getelia.app/de/</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://getelia.app/ru/</loc>
+    <lastmod>2026-07-19</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://getelia.app/apps/contractions/</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://getelia.app/uk/apps/contractions/</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://getelia.app/de/apps/contractions/</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://getelia.app/ru/apps/contractions/</loc>
+    <lastmod>2026-07-19</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://getelia.app/apps/feeding/</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://getelia.app/uk/apps/feeding/</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://getelia.app/de/apps/feeding/</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://getelia.app/ru/apps/feeding/</loc>
+    <lastmod>2026-07-19</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://getelia.app/apps/contractions/privacy/</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://getelia.app/uk/apps/contractions/privacy/</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://getelia.app/de/apps/contractions/privacy/</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://getelia.app/ru/apps/contractions/privacy/</loc>
+    <lastmod>2026-07-19</lastmod>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://getelia.app/apps/contractions/support/</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://getelia.app/uk/apps/contractions/support/</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://getelia.app/de/apps/contractions/support/</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://getelia.app/ru/apps/contractions/support/</loc>
+    <lastmod>2026-07-19</lastmod>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://getelia.app/apps/feeding/privacy/</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://getelia.app/uk/apps/feeding/privacy/</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://getelia.app/de/apps/feeding/privacy/</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://getelia.app/ru/apps/feeding/privacy/</loc>
+    <lastmod>2026-07-19</lastmod>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://getelia.app/apps/feeding/support/</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://getelia.app/uk/apps/feeding/support/</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://getelia.app/de/apps/feeding/support/</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://getelia.app/ru/apps/feeding/support/</loc>
+    <lastmod>2026-07-19</lastmod>
     <priority>0.3</priority>
   </url>
 </urlset>

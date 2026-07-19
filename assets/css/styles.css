@@ -91,6 +91,14 @@ h3 { font-size: 21px; letter-spacing: 0; }
 p { margin: 0; }
 .lead { font-size: clamp(18px, 2.2vw, 21px); color: var(--soft-ink); }
 
+/* Language switcher --------------------------------------------------------- */
+.lang-switch { display: inline-flex; align-items: center; gap: 4px; margin-left: 18px; padding: 3px; border: 1px solid var(--line); border-radius: 999px; background: color-mix(in srgb, var(--surface) 76%, transparent); }
+.lang-switch a { display: inline-flex; align-items: center; justify-content: center; min-width: 36px; min-height: 28px; padding: 4px 9px; border-radius: 999px; color: var(--soft-ink); text-decoration: none; font-size: 11.5px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; transition: background .2s, color .2s; }
+.lang-switch a:hover { color: var(--accent-dark); }
+.lang-switch a[aria-current="true"] { background: var(--surface); color: var(--accent-dark); box-shadow: var(--shadow-soft); }
+@media (prefers-color-scheme: dark) { .lang-switch a:hover, .lang-switch a[aria-current="true"] { color: var(--accent); } }
+@media (max-width: 720px) { .site-header .container { gap: 12px; } .lang-switch { margin-left: auto; } }
+
 /* Header ------------------------------------------------------------------- */
 .site-header {
   position: sticky; top: 0; z-index: 50;
