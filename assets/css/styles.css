@@ -40,16 +40,16 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #221A1F;
-    --bg-tint: #291F25;
-    --surface: #2B2228;
-    --surface-2: #241C21;
+    --bg: #2C232A;
+    --bg-tint: #342A32;
+    --surface: #372D35;
+    --surface-2: #2F262D;
     --ink: #F7EEF2;
     --soft-ink: #B7A6AD;
     --line: rgba(247, 238, 242, 0.10);
     --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 16px 40px rgba(0, 0, 0, 0.35);
     --shadow-soft: 0 1px 2px rgba(0, 0, 0, 0.25), 0 6px 20px rgba(0, 0, 0, 0.3);
-    --accent-light: #3A2A30;
+    --accent-light: #46333B;
   }
 }
 
