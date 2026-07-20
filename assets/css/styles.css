@@ -15,9 +15,9 @@
   --accent-dark: var(--rose-dark);
   --accent-light: var(--rose-light);
 
-  /* Surfaces */
-  --bg: #FFF8F5;
-  --bg-tint: #FCEEE9;
+  /* Surfaces — warm near-white base, blush reserved for tinted bands */
+  --bg: #FBF9F8;
+  --bg-tint: #FBEEE9;
   --surface: #FFFFFF;
   --surface-2: #FFF8F5;
 
@@ -40,10 +40,10 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #171316;
-    --bg-tint: #1D1719;
-    --surface: #211B20;
-    --surface-2: #1B161A;
+    --bg: #221A1F;
+    --bg-tint: #291F25;
+    --surface: #2B2228;
+    --surface-2: #241C21;
     --ink: #F7EEF2;
     --soft-ink: #B7A6AD;
     --line: rgba(247, 238, 242, 0.10);
@@ -118,9 +118,9 @@ p { margin: 0; }
 /* Hero --------------------------------------------------------------------- */
 .hero { position: relative; overflow: hidden; text-align: center; padding-block: clamp(64px, 12vw, 128px); }
 .hero::before {
-  content: ""; position: absolute; inset: -20% -10% auto; height: 520px;
-  background: radial-gradient(60% 100% at 50% 0%, var(--accent-light) 0%, transparent 70%);
-  opacity: 0.7; pointer-events: none; z-index: 0;
+  content: ""; position: absolute; inset: -20% -10% auto; height: 440px;
+  background: radial-gradient(55% 100% at 50% 0%, var(--accent-light) 0%, transparent 72%);
+  opacity: 0.5; pointer-events: none; z-index: 0;
 }
 .hero .container { position: relative; z-index: 1; }
 .hero__wordmark { font-family: var(--font-display); font-size: clamp(52px, 12vw, 104px); line-height: 1; letter-spacing: -0.02em; margin: 0; }
