@@ -7,11 +7,13 @@ BASE = "https://getelia.app"
 LANGS = ["en", "uk", "de", "ru"]
 LOCALES = {"en": "en_US", "uk": "uk_UA", "de": "de_DE", "ru": "ru_RU"}
 LANG_LABELS = {"en": "EN", "uk": "UA", "de": "DE", "ru": "RU"}
+URL_PREFIXES = {"en": "", "uk": "ua", "de": "de", "ru": "ru"}
 
 
 def url(lang, route=""):
     route = route.strip("/")
-    prefix = "" if lang == "en" else f"{lang}/"
+    prefix = URL_PREFIXES[lang]
+    prefix = f"{prefix}/" if prefix else ""
     path = f"{prefix}{route}/" if route else prefix
     return f"{BASE}/{path}".replace("//", "/").replace("https:/", "https://")
 
@@ -19,7 +21,8 @@ def url(lang, route=""):
 def href(lang, route="", current_lang=None, current_route=""):
     route = route.strip("/")
     if current_lang is None:
-        prefix = "" if lang == "en" else f"{lang}/"
+        prefix = URL_PREFIXES[lang]
+        prefix = f"{prefix}/" if prefix else ""
         return f"{prefix}{route}/index.html" if route else f"{prefix}index.html"
     target = out_path(lang, route)
     source_dir = out_path(current_lang, current_route).parent
@@ -38,9 +41,10 @@ def asset(path, current_lang, current_route=""):
 
 def out_path(lang, route=""):
     route = route.strip("/")
-    if lang == "en":
+    prefix = URL_PREFIXES[lang]
+    if not prefix:
       return ROOT / (route or "") / "index.html"
-    return ROOT / lang / (route or "") / "index.html"
+    return ROOT / prefix / (route or "") / "index.html"
 
 def alternates(route):
     links = [f'  <link rel="alternate" hreflang="{lang}" href="{url(lang, route)}" />' for lang in LANGS]
